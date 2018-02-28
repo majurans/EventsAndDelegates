@@ -18,7 +18,7 @@ namespace EventsAndDelegates
         //1 - Define a delegate (Method signature for the subscriber method, event handler should conform this delegate signature)
         public delegate void VideoEncodedEventHandler(object sender, VideoEventArgs e);
 
-        //Instead of defining a custom delegate written above we can use .NET built in delegate for declaring events
+        //Instead of defining a custom delegate as written above we can use .NET built in delegate for declaring events without a custom delegate as following event declaration
         //EventHander & EventHandler<TEventArgs> delegates
 
 
